@@ -101,8 +101,15 @@
                             <td class="paddedbottom20 width36">
                                 <input type="text" id="externalId" name="externalId" ng-model="formData.externalId" class="form-control" />
                             </td>
-                            <td></td>
-                            <td></td>
+                            <td class="width14">
+                                <label>{{ 'label.input.referredBy' | translate }}</label>
+                                <i class="fa fa-question-circle" uib-tooltip="{{'label.tooltip.referredBy' | translate}}"></i>
+                            </td>
+                            <td class="paddedbottom20 width36">
+                                <input type="text" id="referredBy" name="referredBy" ng-model="formData.referredBy" class="form-control" />
+                            </td>
+                            <!-- <td></td>
+                            <td></td> -->
                         </tr>
                     </table>
                     <div ng-hide="loanaccountinfo.calendarOptions == undefined">

@@ -4328,5 +4328,25 @@
   "label.input.municipality": "Municipality",
   "label.input.state": "State",
   "label.input.une": "UNE",
-  "error.msg.office.wrong.hierarchy": "Wrong parent, hierarchy check failed."
+  "error.msg.office.wrong.hierarchy": "Wrong parent, hierarchy check failed.",
+
+  "label.heading.loanCalculator": "Loan calculator",
+	"label.heading.loanAmount": "Loan amount",
+	"label.heading.loanTerm": "Loan term",
+	"label.heading.interestRate": "Interest rate",
+	"label.heading.numberInstallments": "Number installments",
+	"label.heading.repayEvery": "Repay every",
+	"label.heading.interestMethod": "Interest method",
+	"button.heading.calculate": "Calculate",
+	"button.heading.ViewSummaryRepayment": "View summary repayment",
+	"button.heading.printSchedule": "Print schedule",
+	"label.heading.economics": "Economics",
+	"label.input.productiveActivityDate": "Productive activity date",
+	"label.input.economicActivity": "Economic activity",
+	"label.input.activityTime": "Activity time",
+	"label.input.requestCreditAmount": "Credit amount request",
+	"label.input.totalSales": "Total sales",
+  "label.input.spouseSalary": "Spouse salary",
+  "label.tooltip.referredBy": "Referred by",
+  "label.input.referredBy": "Referred by"
 }

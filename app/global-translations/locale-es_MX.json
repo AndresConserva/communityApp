@@ -4071,5 +4071,7 @@
 	"label.input.activityTime": "Tiempo de la actividad",
 	"label.input.requestCreditAmount": "Montode crédito solicitado",
 	"label.input.totalSales": "Ventas totales",
-	"label.input.spouseSalary": "Sueldo del cónyuge"
+	"label.input.spouseSalary": "Sueldo del cónyuge",
+	"label.tooltip.referredBy": "Referido por",
+	"label.input.referredBy": "Referido por"
 }
