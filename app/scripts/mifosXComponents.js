@@ -325,7 +325,8 @@ define(['Q', 'underscore', 'mifosX'], function (Q) {
             'adhocquery/EditAdHocQueryController',
             'organization/banks/BanksController',
             'organization/banks/BankAccountsController',
-            'system/LoanBonusConfigurationController'
+            'system/LoanBonusConfigurationController',
+            'loancalculator/LoanCalculatorController'
         ],
         filters: [
             'StatusLookup',

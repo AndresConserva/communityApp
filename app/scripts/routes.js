@@ -1016,6 +1016,9 @@
             .when('/loan/bonus/config', {
                 templateUrl: 'views/system/loanbonusconfiguration.html'
             })
+            .when('/loancalculator', {
+                templateUrl: 'views/loancalculator/loancalculator.html'
+            })
             .otherwise({
                 templateUrl: "views/errors/404.html"
             })

@@ -4053,5 +4053,23 @@
 	"label.greaterthan": "Debe ser mayor que",
 	"label.cantbegreaterthan": "No debe ser mayor que",
 	"label.configurationssaved": "Se guardaron los cambios!",
-	"label.heading.totaldaysinarrear": "Días en mora"
+	"label.heading.totaldaysinarrear": "Días en mora",
+
+	"label.heading.loanCalculator": "Calculadora de préstamo",
+	"label.heading.loanAmount": "Monto de préstamo",
+	"label.heading.loanTerm": "Término de préstamo",
+	"label.heading.interestRate": "Rango de interes",
+	"label.heading.numberInstallments": "Number of Installments",
+	"label.heading.repayEvery": "Pagar cada",
+	"label.heading.interestMethod": "Método de interes",
+	"button.heading.calculate": "Calcular",
+	"button.heading.ViewSummaryRepayment": "Ver resumen de reembolso",
+	"button.heading.printSchedule": "Imprimir resumen de reembolso",
+	"label.heading.economics": "Económicos",
+	"label.input.productiveActivityDate": "Fecha de la actividad productiva",
+	"label.input.economicActivity": "Actividad económica",
+	"label.input.activityTime": "Tiempo de la actividad",
+	"label.input.requestCreditAmount": "Montode crédito solicitado",
+	"label.input.totalSales": "Ventas totales",
+	"label.input.spouseSalary": "Sueldo del cónyuge"
 }

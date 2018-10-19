@@ -18,6 +18,9 @@
                     return resource(baseUrl + url, paramDefaults, actions);
                 };
                 return {
+                    loanCalculatorResource: defineResource(apiVer + '/loan/calculateloan', {}, {
+                        getSummaryRepayment: { method: 'GET', params: {},  isArray: true }
+                    }),
                     userResource: defineResource(apiVer + "/users/:userId", {userId: '@userId'}, {
                         getAllUsers: {method: 'GET', params: {fields: "id,firstname,lastname,username,officeName"}, isArray: true},
                         getUser: {method: 'GET', params: {}}

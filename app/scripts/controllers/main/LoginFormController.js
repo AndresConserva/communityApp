@@ -1,7 +1,11 @@
 (function (module) {
     mifosX.controllers = _.extend(module, {
         LoginFormController: function (scope, authenticationService, resourceFactory, httpService, $timeout) {
-            scope.loginCredentials = {};
+            scope.loginCredentials = {
+                // test
+                username: 'mifos',
+                password: 'password'
+            };
             scope.passwordDetails = {};
             scope.authenticationFailed = false;
             scope.load = false;

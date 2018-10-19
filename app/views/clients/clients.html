@@ -12,7 +12,7 @@
             <br>
 
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-sm-12 col-md-8">
                     <form ng-submit="search()" class="form-horizontal">
                         <div class="form-group">
                             <div class="col-md-4">
@@ -26,26 +26,36 @@
                                            placeholder="{{'label.input.searchByNameAccNo' | translate}}"
                                            class="form-control unstyled"/>
                                     <span class="input-group-btn">
-                                        <button class="btn btn-primary form-control">
+                                        <button class="btn btn-primary">
                                             <span class="fa fa-search"></span>
                                         </button>
                                     </span>
-                                    <div class="checkbox form-control">
-                                            <label for="showAll">
-                                                <input type="checkbox" id="showAll" name="showAll" ng-model="showClosed">
-                                                {{'label.button.showall' | translate }}
-                                            </label>
-                                    </div>
+                                    <!-- <div class="checkbox form-control" style="border: 0px">
+                                        <label for="showAll">
+                                            <input type="checkbox" id="showAll" name="showAll" ng-model="showClosed">
+                                            {{'label.button.showall' | translate }}
+                                        </label>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
                     </form>
                 </div>
-                <div class="col-sm-4">
-                    <a href="#/createclient" class="btn btn-primary pull-right" has-permission='CREATE_CLIENT'><i
-                            class="fa fa-plus"></i> {{'label.button.createclient' | translate}}</a> &nbsp;&nbsp;
-                    <a href="#/bulkimportclients" class="btn btn-primary pull-right" has-permission='CREATE_CLIENT'><i
+                <div class="col-sm-12 col-md-4">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <a href="#/createclient" class="btn btn-primary pull-right btn-block" has-permission='CREATE_CLIENT'><i
+                                class="fa fa-plus"></i> {{'label.button.createclient' | translate}}</a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#/bulkimportclients" class="btn btn-primary pull-right btn-block" has-permission='CREATE_CLIENT'><i
  +                            class="fa fa-upload"></i>&nbsp;{{'label.button.importclients' | translate}}</a>
+                        </div>
+                    </div>
+                    <!-- <a href="#/createclient" class="btn btn-primary pull-right btn-block" has-permission='CREATE_CLIENT'><i
+                            class="fa fa-plus"></i> {{'label.button.createclient' | translate}}</a> &nbsp;&nbsp;
+                    <a href="#/bulkimportclients" class="btn btn-primary pull-right btn-block" has-permission='CREATE_CLIENT'><i
+ +                            class="fa fa-upload"></i>&nbsp;{{'label.button.importclients' | translate}}</a> -->
                 </div>
             </div>
             <hr/>

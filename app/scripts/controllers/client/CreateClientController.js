@@ -10,6 +10,7 @@
             scope.first.submitondate = new Date ();
             scope.formData = {};
             scope.formDat = {};
+            scope.economics = {};
             scope.clientNonPersonDetails = {};
             scope.restrictDate = new Date();
             scope.showSavingOptions = false;
@@ -169,21 +170,16 @@
 
             // family members
 
-            scope.addFamilyMember=function()
-            {
+            scope.addFamilyMember = function() {
                 scope.familyArray.push({});
             }
 
-            scope.removeFamilyMember=function(index)
-            {
+            scope.removeFamilyMember = function(index) {
                 scope.familyArray.splice(index,1);
             }
 
 
             // end of family members
-
-
-
 
             scope.displayPersonOrNonPersonOptions = function (legalFormId) {
                 if(legalFormId == scope.clientPersonId || legalFormId == null) {
@@ -209,6 +205,7 @@
                     scope.choice = 0;
                 }
             };
+
             if(routeParams.groupId) {
                 scope.cancel = '#/viewgroup/' + routeParams.groupId
                 scope.groupid = routeParams.groupId;
@@ -439,9 +436,10 @@
                     scope.formData.familyMembers.push(temp);
                 }
 
-                //
+                // Economics
+                scope.formData.economics = scope.economics;
 
-
+                // console.log( scope.formData );
 
                 resourceFactory.clientResource.save(this.formData, function (data) {
                     location.path('/viewclient/' + data.clientId);
